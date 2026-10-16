@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Zhang-2025-cerebrovoice",
-  "description": "CerebroVoice is a stereo-electroencephalography (sEEG) dataset recorded from two epilepsy patients during bilingual speech tasks, including Mandarin Chinese reading, English reading, and digit reading. Signals were acquired at 1000 Hz with depth electrodes and are distributed as preprocessed derivatives: low-frequency signal, high-gamma activity, and broadband signal. The data support research on brain-to-speech decoding and neural activity detection.",
-  "methods_description": "sEEG was recorded at 1000 Hz with a Nihon Kohden EEG-1200 system using platinum-iridium depth electrodes. Participants performed Chinese, English, and digit reading tasks, with about 73 to 76 minutes of recording per subject. Preprocessed signals were converted from NPY files to BIDS-iEEG format.",
+  "title": "Zhang-2025-cerebrovoice: CerebroVoice: A Stereotactic EEG Dataset and Benchmark for Bilingual Brain-to-Speech Synthesis and Activity Detection",
+  "description": "CerebroVoice is a stereotactic EEG (sEEG) dataset recorded from two epilepsy patients during bilingual speech tasks, including Mandarin Chinese reading, English reading, and digit reading. It is distributed as preprocessed derivatives in three signal representations: low-frequency signal, high-gamma activity, and broadband signal. The dataset supports benchmarking of brain-to-speech synthesis and speech activity detection.",
+  "methods_description": "sEEG was recorded at 1000 Hz with a Nihon Kohden EEG-1200 system using platinum-iridium depth electrodes. Recordings lasted about 73 minutes for SUB1 (114 channels after filtering) and about 76 minutes for SUB2 (158 channels). Data were preprocessed into NPY derivatives (LFS, HGA, BBS) and converted to BIDS-iEEG format.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -11,27 +11,24 @@
   },
   "keywords": [
     {
-      "term": "stereo-electroencephalography"
+      "term": "stereotactic EEG"
     },
     {
       "term": "intracranial EEG"
     },
     {
-      "term": "speech decoding"
+      "term": "speech synthesis"
     },
     {
       "term": "bilingual speech"
     },
     {
-      "term": "high-gamma activity"
+      "term": "brain-computer interface"
     },
     {
       "term": "Epilepsy",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "brain-computer interface"
     }
   ],
   "related_identifiers": [
@@ -78,5 +75,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "408150a9864eef9f4c3564b13ae07f54607c3dc9808be215123097af385dd56f"
+  "source_hash": "06c49970996b92121b0e636c4f12fedc7cc76d2a8c2642572f72d04ad34dcbb4"
 }
