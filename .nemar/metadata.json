@@ -1,9 +1,39 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Zhang-2025-cerebrovoice",
+  "description": "CerebroVoice is a stereo-electroencephalography (sEEG) dataset recorded from two epilepsy patients during bilingual speech tasks, including Mandarin Chinese reading, English reading, and digit reading. Signals were acquired at 1000 Hz with depth electrodes and are distributed as preprocessed derivatives: low-frequency signal, high-gamma activity, and broadband signal. The data support research on brain-to-speech decoding and neural activity detection.",
+  "methods_description": "sEEG was recorded at 1000 Hz with a Nihon Kohden EEG-1200 system using platinum-iridium depth electrodes. Participants performed Chinese, English, and digit reading tasks, with about 73 to 76 minutes of recording per subject. Preprocessed signals were converted from NPY files to BIDS-iEEG format.",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Xueyi Zhang": {}
   },
+  "keywords": [
+    {
+      "term": "stereo-electroencephalography"
+    },
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "speech decoding"
+    },
+    {
+      "term": "bilingual speech"
+    },
+    {
+      "term": "high-gamma activity"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "brain-computer interface"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.13332808",
@@ -31,14 +61,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "CerebroVoice: Bilingual sEEG Speech Dataset",
-  "license": "CC BY 4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "1.87 GB (37 files)"
   ],
@@ -51,32 +78,5 @@
     ".vmrk",
     ".yml"
   ],
-  "description": "Stereo-electroencephalography (sEEG) recordings from two epilepsy patients performing bilingual speech tasks: reading Mandarin Chinese, English, and digits aloud. Signals were recorded at 1000 Hz with depth electrodes and are provided as preprocessed derivatives (low-frequency signal, high-gamma activity, and broadband signal), converted to BIDS-iEEG format. The dataset supports research on brain-to-speech decoding and bilingual speech neural activity.",
-  "methods_description": "Intracranial recordings were acquired at 1000 Hz using a Nihon Kohden EEG-1200 system with platinum-iridium depth electrodes. Participants read Chinese, English, and digit stimuli (about 73 min for SUB1 and 76 min for SUB2). Preprocessed NPY derivatives (LFS, HGA, BBS) were converted to BIDS-iEEG.",
-  "keywords": [
-    {
-      "term": "sEEG"
-    },
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "speech"
-    },
-    {
-      "term": "bilingual"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "high-gamma activity"
-    },
-    {
-      "term": "brain-to-speech decoding"
-    }
-  ],
-  "source_hash": "aa76336e42f4ba0ee549eda0908b817d64778067d70ed753e8ff09b22fce6776"
+  "source_hash": "408150a9864eef9f4c3564b13ae07f54607c3dc9808be215123097af385dd56f"
 }
