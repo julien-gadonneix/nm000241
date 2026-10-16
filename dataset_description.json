@@ -1,5 +1,5 @@
 {
-  "Name": "CerebroVoice: Bilingual sEEG Speech Dataset",
+  "Name": "Zhang-2025-cerebrovoice",
   "BIDSVersion": "1.9.0",
   "DatasetType": "derivative",
   "License": "CC BY 4.0",
@@ -27,5 +27,5 @@
       "DOI": "doi:10.5281/zenodo.13332808"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
