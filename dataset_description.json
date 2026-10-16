@@ -1,5 +1,5 @@
 {
-  "Name": "Zhang-2025-cerebrovoice",
+  "Name": "Zhang-2025-cerebrovoice: CerebroVoice stereo-EEG speech dataset",
   "BIDSVersion": "1.9.0",
   "DatasetType": "derivative",
   "License": "CC BY 4.0",
