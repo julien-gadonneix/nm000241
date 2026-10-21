@@ -12,7 +12,10 @@ speech tasks (Mandarin Chinese, English, and digit reading). Recorded at
 Data distributed as preprocessed NPY derivatives:
 - LFS: Low-frequency signal
 - HGA: High-gamma activity
-- BBS: Broadband signal
+- BBS: HGA and LFS channels stacked (first half = HGA, second half = LFS, sample-identical), not a separate broadband signal
+
+All features are z-scored per 1.5 s trial (each channel has mean 0 and SD 1 within every trial), so they are unitless;
+runs are trials concatenated back to back.
 
 Tasks: Chinese reading, English reading, digit reading
 Subjects: SUB1 (114 channels post-filtering), SUB2 (158 channels)

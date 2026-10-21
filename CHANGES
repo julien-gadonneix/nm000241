@@ -1,3 +1,7 @@
+1.0.3 2026-10-21
+  - channels.tsv: units n/a (per-trial z-scored features, not µV); _ieeg.json: RecordingType epoched, Manufacturer Nihon Kohden.
+  - README: BBS runs are the HGA and LFS channels stacked.
+
 1.0.2 2026-10-16
   - dataset_description.json: Name expanded with the paper title (Zhang et al., OpenReview 3sfOGsBh85).
 
